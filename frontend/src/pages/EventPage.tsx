@@ -114,7 +114,13 @@ export function EventPage() {
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {ownedTickets.map((t) => (
-              <TicketCard key={t.id} ticketId={t.id} used={t.used} eventName={e.name} />
+              <TicketCard
+                key={t.id}
+                ticketId={t.id}
+                used={t.used}
+                eventName={e.name}
+                ownerAddress={address!}
+              />
             ))}
           </div>
         </section>
