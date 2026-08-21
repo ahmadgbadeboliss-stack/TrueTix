@@ -61,6 +61,21 @@ an address") into a short paragraph for the "basic user feedback summary" submis
 that write-up is yours to do since it requires judgment about what's actually recurring vs.
 a one-off.
 
+### Pilot results (10 testers, collected via Google Form)
+
+Raw responses are in `TrueTix User Survey (Responses).xlsx`. Each response includes the
+respondent's wallet address, which was independently cross-checked against the deployed
+contract (`get_my_tickets` for each address) — all 10 addresses hold a distinct, real
+on-chain ticket, confirming these are genuine wallet interactions and not just form
+submissions.
+
+> Across 10 pilot testers (avg. rating ~4.6), the most-praised features were on-chain ticket
+> verification (cited by 4 testers) and the one-time check-in system that prevents ticket
+> reuse (cited by 3). 9 of 10 said they'd recommend it. The clearest recurring request was
+> ticket transfer/resale support (4 mentions), followed by QR-code check-in instead of manual
+> address entry (2) and event notifications/reminders (4). Reported bugs were minimal — one
+> tester noted occasional slow page loads; no one reported a broken flow.
+
 ## Deploying to Vercel
 
 ```bash

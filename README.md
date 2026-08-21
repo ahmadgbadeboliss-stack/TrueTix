@@ -132,6 +132,16 @@ Event page (mobile, 375px):
 
 Organizer dashboard and door scanner are in [docs/screenshots/](docs/screenshots/).
 
+Analytics/monitoring (PostHog Activity, capturing real production events):
+
+![PostHog activity](docs/screenshots/analytics-posthog.png)
+
+## Demo Video
+
+[Watch the TrueTix demo on Loom](https://www.loom.com/share/91019546636c4587a8d6d7cd4a4102ec) —
+walkthrough of the full flow: organizer dashboard, attendee wallet connect and ticket
+purchase, door scanner check-in, and the resulting live stats.
+
 ## Live demo / user pilot
 
 See [docs/ONBOARDING.md](docs/ONBOARDING.md) for the step-by-step script used to run the
