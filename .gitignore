@@ -12,6 +12,11 @@ frontend/dist-ssr/
 .vercel/
 *.local
 
+# Documentation site
+website/.vitepress/dist
+website/.vitepress/cache
+website/.vercel/
+
 # Env / secrets
 .env
 .env.*
@@ -35,3 +40,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 *.log
+
+.vercel
+.env*
