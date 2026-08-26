@@ -1,5 +1,12 @@
 # TrueTix
 
+## Documentation Website
+
+Complete public documentation covering features, usage, setup, architecture, deployment, and implementation:
+
+[View TrueTix Documentation →](https://truetix-docs.vercel.app)
+
+
 On-chain event ticketing on Stellar. A ticket is a Soroban contract entry, not a PDF or a
 screenshot: it can't be duplicated, and once an event sells out, the contract itself refuses
 to mint another one. Built for the Level 4 (Green Belt) production MVP milestone.
